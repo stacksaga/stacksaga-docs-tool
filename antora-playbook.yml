@@ -1,0 +1,11 @@
+site:
+  title: StackSaga Docs
+  start_page: component-b::index.adoc
+content:
+  sources:
+    - url: https://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@github.com/stacksaga/stacksaga-docs.git
+      branches: main
+      start_path: docs
+ui:
+  bundle:
+    url:  ./theme
