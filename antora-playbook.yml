@@ -1,6 +1,6 @@
 site:
   title: StackSAGA Docs
-  start_page: component-b::index.adoc
+  start_page: StackSaga-framework::intro.adoc
 content:
   sources:
     - url: https://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@github.com/stacksaga/stacksaga-docs.git
@@ -9,7 +9,9 @@ content:
     - url: https://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@github.com/mafei-dev/stacksaga-admin-docs.git
       branches: main
       start_path: docs
-
 ui:
   bundle:
     url: ./theme
+asciidoc:
+  attributes:
+    page-pagination: '@'
