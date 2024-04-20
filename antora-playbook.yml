@@ -12,6 +12,14 @@ content:
 ui:
   bundle:
     url: ./theme
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files:
+      - CNAME
+  - path: CNAME
+    contents: |
+      docs.stacksaga.org
 asciidoc:
   attributes:
     page-pagination: '@'
