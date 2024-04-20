@@ -1,6 +1,6 @@
 site:
   title: StackSAGA Docs
-  start_page: StackSaga-framework::intro.adoc
+  start_page: StackSaga-framework::index.adoc
   url: https://docs.stacksaga.org
 content:
   sources:
