@@ -3,10 +3,10 @@ site:
   start_page: StackSaga-framework::intro.adoc
 content:
   sources:
-    - url: https://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@github.com/stacksaga/stacksaga-docs.git
+    - url: https://github.com/stacksaga/stacksaga-docs.git
       branches: main
       start_path: docs
-    - url: https://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@github.com/mafei-dev/stacksaga-admin-docs.git
+    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
       branches: main
       start_path: docs
 ui:
