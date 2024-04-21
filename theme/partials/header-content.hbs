@@ -1,7 +1,7 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item logo" title="Asciidoctor" href="https://asciidoctor.org"><img src="{{{uiRootPath}}}/img/stack-saga-icon.svg" alt="Asciidoctor" width="48"></a>
+      <a class="navbar-item logo" title="Asciidoctor" href="https://www.stacksaga.org"><img src="{{{uiRootPath}}}/img/stack-saga-icon.svg" alt="StackSaga" width="48"></a>
       <a class="navbar-item title" href="{{#with (and site.url site.homeUrl)}}{{{@root.site.url}}}{{{this}}}{{else}}{{{siteRootPath}}}{{/with}}">{{site.title}}</a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
@@ -34,15 +34,15 @@
             <a class="navbar-item" href="{{{relativize (resolvePageURL 'asciidoc::syntax-quick-reference.adoc')}}}">Syntax Quick Reference</a>
           </div>
         </div>
-        <div class="navbar-item has-dropdown is-hoverable">
+       <!-- <div class="navbar-item has-dropdown is-hoverable">
           <div class="navbar-link">Processing</div>
           <div class="navbar-dropdown">
             <a class="navbar-item" href="{{{relativize (resolvePageURL 'asciidoctor::index.adoc')}}}">Asciidoctor <small>Ruby</small></a>
             <a class="navbar-item" href="{{{relativize (resolvePageURL 'asciidoctor.js::index.adoc')}}}">Asciidoctor.js <small>JavaScript</small></a>
             <a class="navbar-item" href="{{{relativize (resolvePageURL 'asciidoctorj::index.adoc')}}}">AsciidoctorJ <small>Java</small></a>
           </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
+        </div>-->
+        <!--<div class="navbar-item has-dropdown is-hoverable">
           <div class="navbar-link">Extensions</div>
           <div class="navbar-dropdown">
             <div class="navbar-item">Add-on Converters</div>
@@ -67,8 +67,8 @@
             <a class="navbar-item" href="#">Asciidoctor Prism <small>source highlighter</small></a>
             --}}
           </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
+        </div>-->
+        <!--<div class="navbar-item has-dropdown is-hoverable">
           <div class="navbar-link">Tooling</div>
           <div class="navbar-dropdown is-right">
             <div class="navbar-item">Build Automation</div>
@@ -89,8 +89,8 @@
             --}}
             <a class="navbar-item" href="https://intellij-asciidoc-plugin.ahus1.de/docs" target="_blank" rel="noopener">IntelliJ Plugin</a>
           </div>
-        </div>
-        <a class="navbar-item" href="https://github.com/asciidoctor" target="_blank" rel="noopener">
+        </div>-->
+        <a class="navbar-item" href="https://github.com/stacksaga/stacksaga-docs" target="_blank" rel="noopener">
           <span class="icon"><img src="{{{uiRootPath}}}/img/octicons-16.svg#view-mark-github"></span>
         </a>
       </div>
