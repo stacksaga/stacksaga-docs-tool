@@ -25,3 +25,4 @@ asciidoc:
   attributes:
     page-pagination: '@'
     source-highlighter: highlight.js
+
