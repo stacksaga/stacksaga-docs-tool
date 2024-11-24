@@ -1,5 +1,6 @@
 site:
-  title: StackSAGA Docs1
+  title: StackSAGA Docs
+  description: StackSAGA spring boot microservice orchestration framework
   start_page: StackSaga-framework::index.adoc
   url: https://docs.stacksaga.org
 content:
@@ -14,13 +15,13 @@ ui:
   bundle:
     url: ./theme
   supplemental_files:
-  - path: ui.yml
-    contents: |
-      static_files:
-      - CNAME
-  - path: CNAME
-    contents: |
-      docs.stacksaga.org
+    - path: ui.yml
+      contents: |
+        static_files:
+        - CNAME
+    - path: CNAME
+      contents: |
+        docs.stacksaga.org
 asciidoc:
   attributes:
     page-pagination: '@'
