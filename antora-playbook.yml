@@ -1,6 +1,5 @@
 site:
-  title: StackSAGA Docs
-  description: StackSAGA spring boot microservice orchestration framework
+  title: StackSAGA Docs new
   start_page: StackSaga-framework::index.adoc
   url: https://docs.stacksaga.org
 content:
