@@ -1,5 +1,5 @@
 site:
-  title: StackSAGA Docs (!Beta)
+  title: StackSAGA Docs (.Beta.)
   start_page: StackSaga-framework::index.adoc
   url: https://docs.stacksaga.org
 content:
