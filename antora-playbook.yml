@@ -1,5 +1,5 @@
 site:
-  title: StackSAGA Docs (.Beta.)
+  title: StackSAGA Docs
   start_page: StackSaga-framework::index.adoc
   url: https://docs.stacksaga.org
 content:
@@ -7,9 +7,9 @@ content:
     - url: https://github.com/stacksaga/stacksaga-docs.git
       branches: main
       start_path: docs
-    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
-      branches: main
-      start_path: docs
+#    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
+#      branches: main
+#      start_path: docs
 ui:
   bundle:
     url: ./theme
@@ -25,4 +25,3 @@ asciidoc:
   attributes:
     page-pagination: '@'
     source-highlighter: highlight.js
-

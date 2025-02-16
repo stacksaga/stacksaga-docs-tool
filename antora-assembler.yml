@@ -1,0 +1,9 @@
+root_level: 0
+component_versions: '*'
+asciidoc:
+  attributes:
+    attribute-name-here: attribute-value-here
+    source-highlighter: highlight.js
+build:
+  command: bundle exec asciidoctor-pdf
+  publish: false
