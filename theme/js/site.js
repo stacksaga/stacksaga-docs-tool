@@ -258,5 +258,6 @@ function updateCountdown() {
         `Framework is published soon... ${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
+document.querySelector('.nav-menu-toggle').click();
 // Update the countdown every second
 const interval = setInterval(updateCountdown, 1000);
