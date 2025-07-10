@@ -1,11 +1,11 @@
 site:
   title: StackSAGA Docs
-  start_page: StackSaga-framework::index.adoc
+  start_page: StackSaga::index.adoc
   url: https://docs.stacksaga.org
 content:
   sources:
     - url: https://github.com/stacksaga/stacksaga-docs.git
-      branches: main
+      branches: feture/stacksaga-kafka-update
       start_path: docs
 #    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
 #      branches: main
