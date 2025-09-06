@@ -1,1 +1,1 @@
- npx antora --fetch antora-playbook.yml
+npx antora --fetch antora-playbook.yml
