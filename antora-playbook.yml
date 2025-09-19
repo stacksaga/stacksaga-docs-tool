@@ -1,6 +1,6 @@
 site:
-  title: StackSAGA Docs
-  start_page: StackSaga::index.adoc
+  title: StackSaga Reference Documentation
+  start_page: stacksaga::introduction-to-stacksaga.adoc
   url: https://docs.stacksaga.org
 content:
   sources:
