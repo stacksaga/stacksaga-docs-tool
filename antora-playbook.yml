@@ -1,5 +1,5 @@
 site:
-  title: StackSaga
+  title: StackSaga Docs
   start_page: stacksaga::introduction-to-stacksaga.adoc
   url: https://docs.stacksaga.org
 content:
