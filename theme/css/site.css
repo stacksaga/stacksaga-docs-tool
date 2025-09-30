@@ -2678,3 +2678,6 @@ footer.footer {
         color: inherit
     }
 }
+.scrollable {
+    overflow-x: auto;
+}
