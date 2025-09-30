@@ -2678,6 +2678,25 @@ footer.footer {
         color: inherit
     }
 }
-.scrollable {
+
+.scrollable-div {
+    max-width: 100%;
     overflow-x: auto;
+}
+
+.description-column {
+    min-width: 400px;
+}
+
+/* Target the second column (td or th) within the table that has the .product-table role */
+.properties-table th:nth-child(4),
+.properties-table td:nth-child(4) {
+    /* Apply your desired styles here, e.g., to change the background */
+    background-color: #d3fae2; /* Alice Blue */
+    border-right: 1px solid #ccc;
+    min-width: 500px; /* or whatever width you need */
+}
+
+.properties-table td:nth-child(1) {
+    text-wrap: nowrap;
 }
