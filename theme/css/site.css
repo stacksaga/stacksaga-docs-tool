@@ -1652,15 +1652,6 @@ h1.page + aside.toc.embedded {
     white-space: pre-wrap
 }
 
-.doc .listingblock pre:not(.highlight), .doc .literalblock pre, .doc pre.highlight code {
-    background: #fafafa;
-    background: var(--pre-background);
-    box-shadow: inset 0 0 1.75px #e1e1e1;
-    box-shadow: inset 0 0 1.75px var(--pre-border-color);
-    display: block;
-    overflow-x: auto;
-    padding: .75rem
-}
 
 .doc pre.highlight {
     position: relative
@@ -2517,82 +2508,6 @@ footer.footer {
     }
 }
 
-/*! Adapted from the GitHub style by Vasily Polovnyov <vast@whiteants.net> */
-.hljs-comment, .hljs-quote {
-    color: #998;
-    font-style: italic
-}
-
-.hljs-keyword, .hljs-selector-tag, .hljs-subst {
-    color: #333;
-    font-weight: 500;
-    font-weight: var(--monospace-font-weight-bold)
-}
-
-.hljs-literal, .hljs-number, .hljs-tag .hljs-attr, .hljs-template-variable, .hljs-variable {
-    color: teal
-}
-
-.hljs-doctag, .hljs-string {
-    color: #d14
-}
-
-.hljs-section, .hljs-selector-id, .hljs-title {
-    color: #900;
-    font-weight: 500;
-    font-weight: var(--monospace-font-weight-bold)
-}
-
-.hljs-subst {
-    font-weight: 400
-}
-
-.hljs-class .hljs-title, .hljs-type {
-    color: #458;
-    font-weight: 500;
-    font-weight: var(--monospace-font-weight-bold)
-}
-
-.hljs-attribute, .hljs-name, .hljs-tag {
-    color: navy;
-    font-weight: 400
-}
-
-.hljs-link, .hljs-regexp {
-    color: #009926
-}
-
-.hljs-bullet, .hljs-symbol {
-    color: #990073
-}
-
-.hljs-built_in, .hljs-builtin-name {
-    color: #0086b3
-}
-
-.hljs-meta {
-    color: grey;
-    font-weight: 500;
-    font-weight: var(--monospace-font-weight-bold)
-}
-
-.hljs-deletion {
-    background: #fdd
-}
-
-.hljs-addition {
-    background: #dfd
-}
-
-.hljs-emphasis {
-    font-style: italic
-}
-
-.hljs-strong {
-    font-weight: 500;
-    font-weight: var(--monospace-font-weight-bold)
-}
-
 @page {
     margin: .5in
 }
@@ -2677,4 +2592,26 @@ footer.footer {
     .footer * {
         color: inherit
     }
+}
+
+.scrollable-div {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.description-column {
+    min-width: 400px;
+}
+
+/* Target the second column (td or th) within the table that has the .product-table role */
+.properties-table th:nth-child(4),
+.properties-table td:nth-child(4) {
+    /* Apply your desired styles here, e.g., to change the background */
+    background-color: #d3fae2; /* Alice Blue */
+    border-right: 1px solid #ccc;
+    min-width: 500px; /* or whatever width you need */
+}
+
+.properties-table td:nth-child(1) {
+    text-wrap: nowrap;
 }
