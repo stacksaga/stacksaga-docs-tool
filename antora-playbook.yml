@@ -1,7 +1,7 @@
 site:
   title: StackSaga Docs
   start_page: stacksaga::introduction-to-stacksaga.adoc
-  url: https://docs.stacksaga.org
+  url: https://www.stacksaga.org
 content:
   sources:
     - url: https://github.com/stacksaga/stacksaga-docs.git
