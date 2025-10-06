@@ -18,7 +18,6 @@ ui:
       contents: |
         static_files:
         - CNAME
-        - static/about-us.html
     - path: CNAME
       contents: |
         stacksaga.org
