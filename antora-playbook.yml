@@ -20,7 +20,7 @@ ui:
         - CNAME
     - path: CNAME
       contents: |
-        docs.stacksaga.org
+        stacksaga.org
 asciidoc:
   attributes:
     page-pagination: '@'
