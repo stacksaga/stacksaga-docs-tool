@@ -18,9 +18,14 @@ ui:
       contents: |
         static_files:
         - CNAME
+        - ads.txt
     - path: CNAME
       contents: |
         stacksaga.org
+    - path: ads.txt
+      contents: |
+        google.com, pub-3193366757941154, DIRECT, f08c47fec0942fa0
+
 asciidoc:
   attributes:
     page-pagination: '@'
