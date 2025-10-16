@@ -4,7 +4,7 @@ site:
   url: https://www.stacksaga.org
 content:
   sources:
-    - url: https://github.com/stacksaga/stacksaga-docs.git
+    - url: C:\Users\USER\IdeaProjects\stacksaga-docs
       branches: feture/stacksaga-kafka-update
       start_path: docs
 #    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git

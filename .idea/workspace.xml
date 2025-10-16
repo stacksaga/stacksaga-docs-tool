@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ce9240e-4315-4563-96d9-fdecf784bd3e" name="Changes" comment="Add ads.txt file with Google AdSense configuration">
+      <change beforePath="$PROJECT_DIR$/antora-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/antora-playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/partials/footer-content.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/footer-content.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/partials/head-scripts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/head-scripts.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/partials/nav.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/nav.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mafei-dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stacksaga/stacksaga-docs-tool.git&quot;,
+    &quot;accountId&quot;: &quot;818280f1-f92d-4879-9728-a37c1f1fa73d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="33PsPWACze3Uo7dxRnZYO7qbfdo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/view-2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/stacksaga-docs-tool/theme/layouts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool\theme\layouts" />
+      <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool" />
+      <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool\supplemental-ui" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ce9240e-4315-4563-96d9-fdecf784bd3e" name="Changes" comment="" />
+      <created>1759230018861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759230018861</updated>
+      <workItem from="1759230022171" duration="5816000" />
+      <workItem from="1759242291732" duration="1220000" />
+      <workItem from="1759283011132" duration="5113000" />
+      <workItem from="1759341061107" duration="1000" />
+      <workItem from="1759501389573" duration="1710000" />
+      <workItem from="1759573689521" duration="1167000" />
+      <workItem from="1759676882892" duration="83000" />
+      <workItem from="1759748332804" duration="4129000" />
+      <workItem from="1759755398689" duration="11000" />
+      <workItem from="1759755512338" duration="1733000" />
+      <workItem from="1759758288119" duration="42000" />
+      <workItem from="1759931208894" duration="769000" />
+      <workItem from="1759934818304" duration="2594000" />
+      <workItem from="1760184770494" duration="132000" />
+      <workItem from="1760188263583" duration="20099000" />
+      <workItem from="1760271348234" duration="590000" />
+      <workItem from="1760280726234" duration="3233000" />
+      <workItem from="1760298680978" duration="5000" />
+      <workItem from="1760302356239" duration="2828000" />
+      <workItem from="1760368258397" duration="754000" />
+      <workItem from="1760371536453" duration="13000" />
+      <workItem from="1760375921794" duration="9000" />
+      <workItem from="1760446920172" duration="2105000" />
+      <workItem from="1760451882121" duration="1218000" />
+    </task>
+    <task id="LOCAL-00001" summary="Refactor CSS styles for improved readability and structure; update module file paths and add migration state XML files">
+      <option name="closed" value="true" />
+      <created>1759230197383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759230197383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add scrollable class to enable horizontal scrolling for overflow content">
+      <option name="closed" value="true" />
+      <created>1759231462260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759231462260</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Redirect 404 errors to custom 404 page">
+      <option name="closed" value="true" />
+      <created>1759284869033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759284869033</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update stylesheet references and clean up unused CSS rules">
+      <option name="closed" value="true" />
+      <created>1759287558374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759287558374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update CNAME in antora-playbook.yml to reflect new domain">
+      <option name="closed" value="true" />
+      <created>1759748373331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759748373331</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update site URL in antora-playbook.yml and modify 404 error page">
+      <option name="closed" value="true" />
+      <created>1759748723701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759748723701</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add about-us.html to static files in antora-playbook.yml">
+      <option name="closed" value="true" />
+      <created>1759749308720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759749308720</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update footer links and remove about-us.html from static files">
+      <option name="closed" value="true" />
+      <created>1759754937598</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759754937598</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix footer links to point to the correct static paths for About Us and Privacy Policy">
+      <option name="closed" value="true" />
+      <created>1759755078365</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759755078365</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update footer links to use relative paths for About Us and Privacy Policy">
+      <option name="closed" value="true" />
+      <created>1759755124085</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759755124085</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update footer links to use absolute URLs for About Us and Privacy Policy">
+      <option name="closed" value="true" />
+      <created>1759755243343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759755243343</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update footer links to use relative paths for About Us and Privacy Policy">
+      <option name="closed" value="true" />
+      <created>1759758080468</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759758080468</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update footer links to use absolute URLs for About Us and Privacy Policy">
+      <option name="closed" value="true" />
+      <created>1759758326096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759758326096</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add ads.txt file with Google AdSense configuration">
+      <option name="closed" value="true" />
+      <created>1759931361596</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759931361596</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor CSS styles for improved readability and structure; update module file paths and add migration state XML files" />
+    <MESSAGE value="Add scrollable class to enable horizontal scrolling for overflow content" />
+    <MESSAGE value="Redirect 404 errors to custom 404 page" />
+    <MESSAGE value="Update stylesheet references and clean up unused CSS rules" />
+    <MESSAGE value="Update CNAME in antora-playbook.yml to reflect new domain" />
+    <MESSAGE value="Update site URL in antora-playbook.yml and modify 404 error page" />
+    <MESSAGE value="Add about-us.html to static files in antora-playbook.yml" />
+    <MESSAGE value="Update footer links and remove about-us.html from static files" />
+    <MESSAGE value="Fix footer links to point to the correct static paths for About Us and Privacy Policy" />
+    <MESSAGE value="Update footer links to use relative paths for About Us and Privacy Policy" />
+    <MESSAGE value="Update footer links to use absolute URLs for About Us and Privacy Policy" />
+    <MESSAGE value="Add ads.txt file with Google AdSense configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ads.txt file with Google AdSense configuration" />
+  </component>
+</project>
