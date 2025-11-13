@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce9240e-4315-4563-96d9-fdecf784bd3e" name="Changes" comment="Add ads.txt file with Google AdSense configuration">
-      <change beforePath="$PROJECT_DIR$/antora-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/antora-playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/partials/footer-content.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/footer-content.hbs" afterDir="false" />
+    <list default="true" id="5ce9240e-4315-4563-96d9-fdecf784bd3e" name="Changes" comment="Update CNAME in Antora playbook to point to docs.stacksaga.org">
       <change beforePath="$PROJECT_DIR$/theme/partials/head-scripts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/head-scripts.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/partials/nav.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/nav.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +44,22 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/view-2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/stacksaga-docs-tool/theme/layouts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "feature/view-2",
+    "last_opened_file_path": "C:/Users/USER/IdeaProjects/stacksaga-docs-tool",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool\theme\layouts" />
@@ -101,6 +98,7 @@
       <workItem from="1760375921794" duration="9000" />
       <workItem from="1760446920172" duration="2105000" />
       <workItem from="1760451882121" duration="1218000" />
+      <workItem from="1763017187621" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor CSS styles for improved readability and structure; update module file paths and add migration state XML files">
       <option name="closed" value="true" />
@@ -214,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759931361596</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add ads.txt file with Google AdSense configuration">
+      <option name="closed" value="true" />
+      <created>1763017314918</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763017314918</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update CNAME in Antora playbook to point to docs.stacksaga.org">
+      <option name="closed" value="true" />
+      <created>1763017445820</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1763017445820</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +258,7 @@
     <MESSAGE value="Update footer links to use relative paths for About Us and Privacy Policy" />
     <MESSAGE value="Update footer links to use absolute URLs for About Us and Privacy Policy" />
     <MESSAGE value="Add ads.txt file with Google AdSense configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ads.txt file with Google AdSense configuration" />
+    <MESSAGE value="Update CNAME in Antora playbook to point to docs.stacksaga.org" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CNAME in Antora playbook to point to docs.stacksaga.org" />
   </component>
 </project>
