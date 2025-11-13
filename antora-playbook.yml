@@ -1,10 +1,10 @@
 site:
   title: StackSaga Docs
   start_page: stacksaga::introduction-to-stacksaga.adoc
-  url: https://www.stacksaga.org
+  url: https://docs.stacksaga.org
 content:
   sources:
-    - url: C:\Users\USER\IdeaProjects\stacksaga-docs
+    - url: https://github.com/stacksaga/stacksaga-docs.git
       branches: feture/stacksaga-kafka-update
       start_path: docs
 #    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
