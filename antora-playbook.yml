@@ -23,6 +23,8 @@ ui:
       contents: |
         docs.stacksaga.org
 asciidoc:
+  extensions:
+    - asciidoctor-diagram
   attributes:
     page-pagination: '@'
     source-highlighter: highlight.js
