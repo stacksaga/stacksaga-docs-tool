@@ -24,7 +24,7 @@ ui:
         docs.stacksaga.org
 asciidoc:
   extensions:
-    - asciidoctor-diagram
+    - asciidoctor-plantuml
   attributes:
     page-pagination: '@'
     source-highlighter: highlight.js
