@@ -26,5 +26,6 @@ asciidoc:
   extensions:
     - asciidoctor-plantuml
   attributes:
+    plantuml-server-url: http://www.plantuml.com/plantuml
     page-pagination: '@'
     source-highlighter: highlight.js
