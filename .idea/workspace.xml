@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Add Antora extension to publish raw .adoc files alongside generated HTML pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/mafei/STACKSAGA-PROJECT/stacksaga-docs-tool" value="3AuDljSjKifOVLQVjeTTGkgM5KG" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mafei-dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stacksaga/stacksaga-docs-tool.git&quot;,
+    &quot;accountId&quot;: &quot;418c1206-239f-48ad-b8f9-5ac2a9802c25&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3AuDljSjKifOVLQVjeTTGkgM5KG" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mafei/STACKSAGA-PROJECT/stacksaga-docs-tool",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="" />
+      <created>1773433715520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773433715520</updated>
+      <workItem from="1773433717650" duration="1385000" />
+      <workItem from="1775074985843" duration="1075000" />
+      <workItem from="1776287894204" duration="1370000" />
+      <workItem from="1776289433445" duration="1287000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add Asciidoctor diagram extension to enhance documentation capabilities">
+      <option name="closed" value="true" />
+      <created>1773433878299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773433878299</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Replace Asciidoctor diagram extension with PlantUML for improved diagram support">
+      <option name="closed" value="true" />
+      <created>1773434321802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773434321802</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add PlantUML server URL to Asciidoctor configuration for diagram rendering">
+      <option name="closed" value="true" />
+      <created>1773434499762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773434499762</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update antora-assembler.yml to retain source files during build process">
+      <option name="closed" value="true" />
+      <created>1776288232196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776288232196</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Antora extension to publish raw .adoc files alongside generated HTML">
+      <option name="closed" value="true" />
+      <created>1776289258959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776289258959</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add .nojekyll file and update dependency installation in static.yml">
+      <option name="closed" value="true" />
+      <created>1776290288592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776290288592</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Comment out redirect script in 404 error page">
+      <option name="closed" value="true" />
+      <created>1776290442708</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776290442708</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Asciidoctor extensions for enhanced documentation capabilities">
+      <option name="closed" value="true" />
+      <created>1776290999673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776290999673</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Antora extension to publish raw .adoc files alongside generated HTML pages">
+      <option name="closed" value="true" />
+      <created>1776291116180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776291116180</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Asciidoctor diagram extension to enhance documentation capabilities" />
+    <MESSAGE value="Replace Asciidoctor diagram extension with PlantUML for improved diagram support" />
+    <MESSAGE value="Add PlantUML server URL to Asciidoctor configuration for diagram rendering" />
+    <MESSAGE value="Update antora-assembler.yml to retain source files during build process" />
+    <MESSAGE value="Add Antora extension to publish raw .adoc files alongside generated HTML" />
+    <MESSAGE value="Add .nojekyll file and update dependency installation in static.yml" />
+    <MESSAGE value="Comment out redirect script in 404 error page" />
+    <MESSAGE value="Add Asciidoctor extensions for enhanced documentation capabilities" />
+    <MESSAGE value="Add Antora extension to publish raw .adoc files alongside generated HTML pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Antora extension to publish raw .adoc files alongside generated HTML pages" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
