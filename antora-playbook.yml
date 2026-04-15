@@ -1,3 +1,6 @@
+antora:
+  extensions:
+    - ./lib/adoc-publisher-extension.js
 site:
   title: StackSaga Docs
   start_page: stacksaga::introduction-to-stacksaga.adoc
