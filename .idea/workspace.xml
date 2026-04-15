@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce9240e-4315-4563-96d9-fdecf784bd3e" name="Changes" comment="Update CNAME in Antora playbook to point to docs.stacksaga.org">
-      <change beforePath="$PROJECT_DIR$/theme/partials/head-scripts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/head-scripts.hbs" afterDir="false" />
+    <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Comment out redirect script in 404 error page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antora-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/antora-playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/mafei/STACKSAGA-PROJECT/stacksaga-docs-tool" value="3AuDljSjKifOVLQVjeTTGkgM5KG" />
+    </persistenceIdMap>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,16 +30,17 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/stacksaga/stacksaga-docs-tool.git&quot;,
-    &quot;accountId&quot;: &quot;818280f1-f92d-4879-9728-a37c1f1fa73d&quot;
+    &quot;accountId&quot;: &quot;418c1206-239f-48ad-b8f9-5ac2a9802c25&quot;
   }
 }</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
-  <component name="ProjectId" id="33PsPWACze3Uo7dxRnZYO7qbfdo" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3AuDljSjKifOVLQVjeTTGkgM5KG" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
@@ -46,219 +50,120 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "feature/view-2",
-    "last_opened_file_path": "C:/Users/USER/IdeaProjects/stacksaga-docs-tool",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mafei/STACKSAGA-PROJECT/stacksaga-docs-tool",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool\theme\layouts" />
-      <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool" />
-      <recent name="C:\Users\USER\IdeaProjects\stacksaga-docs-tool\supplemental-ui" />
-    </key>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ce9240e-4315-4563-96d9-fdecf784bd3e" name="Changes" comment="" />
-      <created>1759230018861</created>
+      <changelist id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="" />
+      <created>1773433715520</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1759230018861</updated>
-      <workItem from="1759230022171" duration="5816000" />
-      <workItem from="1759242291732" duration="1220000" />
-      <workItem from="1759283011132" duration="5113000" />
-      <workItem from="1759341061107" duration="1000" />
-      <workItem from="1759501389573" duration="1710000" />
-      <workItem from="1759573689521" duration="1167000" />
-      <workItem from="1759676882892" duration="83000" />
-      <workItem from="1759748332804" duration="4129000" />
-      <workItem from="1759755398689" duration="11000" />
-      <workItem from="1759755512338" duration="1733000" />
-      <workItem from="1759758288119" duration="42000" />
-      <workItem from="1759931208894" duration="769000" />
-      <workItem from="1759934818304" duration="2594000" />
-      <workItem from="1760184770494" duration="132000" />
-      <workItem from="1760188263583" duration="20099000" />
-      <workItem from="1760271348234" duration="590000" />
-      <workItem from="1760280726234" duration="3233000" />
-      <workItem from="1760298680978" duration="5000" />
-      <workItem from="1760302356239" duration="2828000" />
-      <workItem from="1760368258397" duration="754000" />
-      <workItem from="1760371536453" duration="13000" />
-      <workItem from="1760375921794" duration="9000" />
-      <workItem from="1760446920172" duration="2105000" />
-      <workItem from="1760451882121" duration="1218000" />
-      <workItem from="1763017187621" duration="1092000" />
+      <updated>1773433715520</updated>
+      <workItem from="1773433717650" duration="1385000" />
+      <workItem from="1775074985843" duration="1075000" />
+      <workItem from="1776287894204" duration="1370000" />
+      <workItem from="1776289433445" duration="1287000" />
     </task>
-    <task id="LOCAL-00001" summary="Refactor CSS styles for improved readability and structure; update module file paths and add migration state XML files">
+    <task id="LOCAL-00001" summary="Add Asciidoctor diagram extension to enhance documentation capabilities">
       <option name="closed" value="true" />
-      <created>1759230197383</created>
+      <created>1773433878299</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1759230197383</updated>
+      <updated>1773433878299</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add scrollable class to enable horizontal scrolling for overflow content">
+    <task id="LOCAL-00002" summary="Replace Asciidoctor diagram extension with PlantUML for improved diagram support">
       <option name="closed" value="true" />
-      <created>1759231462260</created>
+      <created>1773434321802</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1759231462260</updated>
+      <updated>1773434321802</updated>
     </task>
-    <task id="LOCAL-00003" summary="Redirect 404 errors to custom 404 page">
+    <task id="LOCAL-00003" summary="Add PlantUML server URL to Asciidoctor configuration for diagram rendering">
       <option name="closed" value="true" />
-      <created>1759284869033</created>
+      <created>1773434499762</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1759284869033</updated>
+      <updated>1773434499762</updated>
     </task>
-    <task id="LOCAL-00004" summary="Update stylesheet references and clean up unused CSS rules">
+    <task id="LOCAL-00004" summary="Update antora-assembler.yml to retain source files during build process">
       <option name="closed" value="true" />
-      <created>1759287558374</created>
+      <created>1776288232196</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1759287558374</updated>
+      <updated>1776288232196</updated>
     </task>
-    <task id="LOCAL-00005" summary="Update CNAME in antora-playbook.yml to reflect new domain">
+    <task id="LOCAL-00005" summary="Add Antora extension to publish raw .adoc files alongside generated HTML">
       <option name="closed" value="true" />
-      <created>1759748373331</created>
+      <created>1776289258959</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1759748373331</updated>
+      <updated>1776289258959</updated>
     </task>
-    <task id="LOCAL-00006" summary="Update site URL in antora-playbook.yml and modify 404 error page">
+    <task id="LOCAL-00006" summary="Add .nojekyll file and update dependency installation in static.yml">
       <option name="closed" value="true" />
-      <created>1759748723701</created>
+      <created>1776290288592</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1759748723701</updated>
+      <updated>1776290288592</updated>
     </task>
-    <task id="LOCAL-00007" summary="Add about-us.html to static files in antora-playbook.yml">
+    <task id="LOCAL-00007" summary="Comment out redirect script in 404 error page">
       <option name="closed" value="true" />
-      <created>1759749308720</created>
+      <created>1776290442708</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1759749308720</updated>
+      <updated>1776290442708</updated>
     </task>
-    <task id="LOCAL-00008" summary="Update footer links and remove about-us.html from static files">
-      <option name="closed" value="true" />
-      <created>1759754937598</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1759754937598</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fix footer links to point to the correct static paths for About Us and Privacy Policy">
-      <option name="closed" value="true" />
-      <created>1759755078365</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1759755078365</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update footer links to use relative paths for About Us and Privacy Policy">
-      <option name="closed" value="true" />
-      <created>1759755124085</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1759755124085</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update footer links to use absolute URLs for About Us and Privacy Policy">
-      <option name="closed" value="true" />
-      <created>1759755243343</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1759755243343</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Update footer links to use relative paths for About Us and Privacy Policy">
-      <option name="closed" value="true" />
-      <created>1759758080468</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1759758080468</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Update footer links to use absolute URLs for About Us and Privacy Policy">
-      <option name="closed" value="true" />
-      <created>1759758326096</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1759758326096</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Add ads.txt file with Google AdSense configuration">
-      <option name="closed" value="true" />
-      <created>1759931361596</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1759931361596</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add ads.txt file with Google AdSense configuration">
-      <option name="closed" value="true" />
-      <created>1763017314918</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1763017314918</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Update CNAME in Antora playbook to point to docs.stacksaga.org">
-      <option name="closed" value="true" />
-      <created>1763017445820</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1763017445820</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor CSS styles for improved readability and structure; update module file paths and add migration state XML files" />
-    <MESSAGE value="Add scrollable class to enable horizontal scrolling for overflow content" />
-    <MESSAGE value="Redirect 404 errors to custom 404 page" />
-    <MESSAGE value="Update stylesheet references and clean up unused CSS rules" />
-    <MESSAGE value="Update CNAME in antora-playbook.yml to reflect new domain" />
-    <MESSAGE value="Update site URL in antora-playbook.yml and modify 404 error page" />
-    <MESSAGE value="Add about-us.html to static files in antora-playbook.yml" />
-    <MESSAGE value="Update footer links and remove about-us.html from static files" />
-    <MESSAGE value="Fix footer links to point to the correct static paths for About Us and Privacy Policy" />
-    <MESSAGE value="Update footer links to use relative paths for About Us and Privacy Policy" />
-    <MESSAGE value="Update footer links to use absolute URLs for About Us and Privacy Policy" />
-    <MESSAGE value="Add ads.txt file with Google AdSense configuration" />
-    <MESSAGE value="Update CNAME in Antora playbook to point to docs.stacksaga.org" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update CNAME in Antora playbook to point to docs.stacksaga.org" />
+    <MESSAGE value="Add Asciidoctor diagram extension to enhance documentation capabilities" />
+    <MESSAGE value="Replace Asciidoctor diagram extension with PlantUML for improved diagram support" />
+    <MESSAGE value="Add PlantUML server URL to Asciidoctor configuration for diagram rendering" />
+    <MESSAGE value="Update antora-assembler.yml to retain source files during build process" />
+    <MESSAGE value="Add Antora extension to publish raw .adoc files alongside generated HTML" />
+    <MESSAGE value="Add .nojekyll file and update dependency installation in static.yml" />
+    <MESSAGE value="Comment out redirect script in 404 error page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment out redirect script in 404 error page" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

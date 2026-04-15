@@ -1,3 +1,6 @@
+antora:
+  extensions:
+    - ./lib/adoc-publisher-extension.js
 site:
   title: StackSaga Docs
   start_page: stacksaga::introduction-to-stacksaga.adoc
@@ -27,6 +30,9 @@ ui:
         google.com, pub-3193366757941154, DIRECT, f08c47fec0942fa0
 
 asciidoc:
+  extensions:
+    - asciidoctor-plantuml
   attributes:
+    plantuml-server-url: http://www.plantuml.com/plantuml
     page-pagination: '@'
     source-highlighter: highlight.js
