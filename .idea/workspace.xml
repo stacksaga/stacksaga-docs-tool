@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Comment out redirect script in 404 error page">
+    <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Add Antora extension to publish raw .adoc files alongside generated HTML pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antora-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/antora-playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776290442708</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Asciidoctor extensions for enhanced documentation capabilities">
+      <option name="closed" value="true" />
+      <created>1776290999673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776290999673</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Antora extension to publish raw .adoc files alongside generated HTML pages">
+      <option name="closed" value="true" />
+      <created>1776291116180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776291116180</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +172,9 @@
     <MESSAGE value="Add Antora extension to publish raw .adoc files alongside generated HTML" />
     <MESSAGE value="Add .nojekyll file and update dependency installation in static.yml" />
     <MESSAGE value="Comment out redirect script in 404 error page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment out redirect script in 404 error page" />
+    <MESSAGE value="Add Asciidoctor extensions for enhanced documentation capabilities" />
+    <MESSAGE value="Add Antora extension to publish raw .adoc files alongside generated HTML pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Antora extension to publish raw .adoc files alongside generated HTML pages" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -4,6 +4,8 @@
     "@antora/site-generator": "3.1.7"
   },
   "dependencies": {
-    "@antora/pdf-extension": "^1.0.0-alpha.11"
+    "@antora/pdf-extension": "^1.0.0-alpha.11",
+    "asciidoctor-plantuml": "^1.5.0",
+    "@antora/site-generator": "3.1.7"
   }
 }
