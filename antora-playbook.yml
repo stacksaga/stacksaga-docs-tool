@@ -22,9 +22,12 @@ ui:
       contents: |
         static_files:
         - CNAME
+        - .nojekyll
     - path: CNAME
       contents: |
         docs.stacksaga.org
+    - path: .nojekyll
+      contents: ''
 asciidoc:
   extensions:
     - asciidoctor-plantuml
