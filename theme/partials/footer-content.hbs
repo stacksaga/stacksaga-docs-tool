@@ -1,36 +1,70 @@
 <footer class="footer">
     <div class="footer-main">
         <figure class="footer-brand">
-            <a class="logo" href="https://asciidoctor.org"><img src="{{uiRootPath}}/img/stack-saga-icon.svg"
-                                                                alt="Asciidoctor" width="48"></a>
-            <figcaption class="footer-brand-name"><a href="https://asciidoctor.org">StackSAGA</a></figcaption>
+            <a class="logo" href="https://stacksaga.org">
+                <img src="{{uiRootPath}}/img/stack-saga-icon.svg" alt="StackSAGA" width="48">
+            </a>
+            <figcaption class="footer-brand-name"><a href="https://stacksaga.org">StackSAGA</a></figcaption>
         </figure>
+        <p class="footer-tagline">Saga Orchestration Framework for Microservices</p>
+        <p class="footer-description">An open-source distributed saga orchestration framework that helps manage complex microservice transactions with reliability, observability, and rollback support.</p>
+        <div class="footer-social">
+            <a href="https://github.com/stacksaga" class="footer-social-link" target="_blank" rel="noopener" title="GitHub">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+            </a>
+            <a href="https://stackoverflow.com/search?q=stacksaga" class="footer-social-link" target="_blank" rel="noopener" title="Stack Overflow">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M15 21H3v-7H1v9h16v-9h-2v7zm-1-3H4v-2h10v2zm.63-5.27l-9.66-2.06-.41 1.96 9.66 2.06.41-1.96zm1.24-4.65L6.4 3.7l-1.2 1.64 9.47 4.38 1.2-1.64zm3.52-4.08L10.54 0 9.3 1.54 18.09 7 19.39 5.46v-.46zM21 14H19v7h2v-7z"/>
+                </svg>
+            </a>
+        </div>
+        <a href="https://github.com/stacksaga" class="footer-github-cta" target="_blank" rel="noopener">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.873 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+            </svg>
+            Star on GitHub
+        </a>
     </div>
-    <div class="footer-legal">
-        <ul class="footer-brand-links">
-            <li><a href="https://stacksaga.org" target="_blank" rel="noopener">Home</a></li>
-            <li><a href="{{{or site.url (or siteRootUrl siteRootPath)}}}">Docs</a></li>
-            <li><a href="https://github.com/stacksaga" target="_blank" rel="noopener">Source</a></li>
-            <li><a href="https://stackoverflow.com/search?q=stacksaga" target="_blank" rel="noopener">Discuss</a></li>
-            <li><a href="https://stacksaga.org/stacksaga/latest/static/about-us.html" target="_blank" rel="noopener">About
-                us</a></li>
-            <li><a href="https://stacksaga.org/stacksaga/latest/static/privacy-policy.html" target="_blank"
-                   rel="noopener">Privacy Policy</a></li>
-        </ul>
-        {{!--     <p>Copyright © {{{year}}} Dan Allen, Sarah White, and individual Asciidoctor contributors. Except where noted, the content is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.</p> --}}
-        {{!--     <p>The UI for this site is based on the default Antora UI and is licensed under the MPL-2.0 license. Several icons are imported from <a href="https://primer.style/octicons/" target="_blank" rel="noopener">Octicons</a> and are licensed under the MIT license.</p> --}}
-        {{!--     <p>AsciiDoc is a Trademark of the Eclipse Foundation, Inc.</p> --}}
+    <div class="footer-links-group">
+        <div class="footer-legal">
+            <h4 class="footer-nav-title">Documentation</h4>
+            <ul class="footer-brand-links">
+                <li><a href="https://stacksaga.org" target="_blank" rel="noopener">Home</a></li>
+                <li><a href="{{{or site.url (or siteRootUrl siteRootPath)}}}">Get Started</a></li>
+                <li><a href="https://github.com/stacksaga" target="_blank" rel="noopener">Source Code</a></li>
+                <li><a href="https://github.com/stacksaga/stacksaga-spring" target="_blank" rel="noopener">Releases</a></li>
+            </ul>
+        </div>
+        <div class="footer-community">
+            <h4 class="footer-nav-title">Community</h4>
+            <ul class="footer-brand-links">
+                <li><a href="https://stackoverflow.com/search?q=stacksaga" target="_blank" rel="noopener">Stack Overflow</a></li>
+                <li><a href="https://github.com/stacksaga" target="_blank" rel="noopener">GitHub Discussions</a></li>
+                <li><a href="https://stacksaga.org/stacksaga/latest/static/about-us.html" target="_blank" rel="noopener">About Us</a></li>
+                <li><a href="https://stacksaga.org/stacksaga/latest/static/privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a></li>
+            </ul>
+        </div>
     </div>
     <div class="footer-thanks">
-        {{!--     <p>Thanks to our <a href="https://asciidoctor.org/supporters/" target="_blank" rel="noopener">backers</a> and <a href="https://asciidoctor.org/contributors/" target="_blank" rel="noopener">contributors</a> for helping to make this project possible. Additional thanks to:</p> --}}
-        {{!--     <p class="badges"> --}}
-        {{!--       <a href="https://opendevise.com" title="Development support by OpenDevise" target="_blank" rel="noopener"><img src="https://secure.gravatar.com/avatar/823717a797dbd78ceff7b26aa397f383.png?size=80" alt="OpenDevise Logo" width="30"></a> --}}
-        {{!--       <a href="https://algolia.com/docsearch" title="Search by Algolia DocSearch" target="_blank" rel="noopener"><img src="{{{uiRootPath}}}/img/algolia-logo.svg" alt="Algolia logo" width="30"></a> --}}
-        {{!--       <a href="https://netlify.com" title="Deploys by Netlify" target="_blank" rel="noopener"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" width="67"></a> --}}
-        <p>
-            Powered by Zoftstack
-        </p>
-
-
+        <div>
+            <h4 class="footer-nav-title">Built With</h4>
+            <ul class="footer-tech-list">
+                <li class="footer-tech-badge">Java</li>
+                <li class="footer-tech-badge">Spring Boot</li>
+                <li class="footer-tech-badge">Apache Kafka</li>
+                <li class="footer-tech-badge">Spring Data</li>
+                <li class="footer-tech-badge">Antora</li>
+            </ul>
+        </div>
+        <div class="footer-powered">
+            <p class="footer-powered-label">Powered by</p>
+            <a href="https://zoftstack.com" target="_blank" rel="noopener" class="footer-powered-link">Zoftstack</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2024 StackSAGA &mdash; All rights reserved.</p>
+        <p class="footer-license">Documentation licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></p>
     </div>
 </footer>
