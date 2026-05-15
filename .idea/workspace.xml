@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Add Antora extension to publish raw .adoc files alongside generated HTML pages">
+    <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Add Asciidoctor PlantUML extension to enhance documentation capabilities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/partials/footer-content.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/footer-content.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="0ffcd258-80e6-449e-bcb6-a32496611376" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="0ffcd258-80e6-449e-bcb6-a32496611376" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="claude-haiku-4.5" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -37,6 +56,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="o6Tk6NeP" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -48,24 +70,24 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mafei/STACKSAGA-PROJECT/stacksaga-docs-tool",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mafei/STACKSAGA-PROJECT/stacksaga-docs-tool&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,6 +107,8 @@
       <workItem from="1775074985843" duration="1075000" />
       <workItem from="1776287894204" duration="1370000" />
       <workItem from="1776289433445" duration="1287000" />
+      <workItem from="1776315803220" duration="757000" />
+      <workItem from="1778339750853" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="Add Asciidoctor diagram extension to enhance documentation capabilities">
       <option name="closed" value="true" />
@@ -158,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776291116180</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Asciidoctor PlantUML extension to enhance documentation capabilities">
+      <option name="closed" value="true" />
+      <created>1776291235467</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776291235467</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +206,8 @@
     <MESSAGE value="Comment out redirect script in 404 error page" />
     <MESSAGE value="Add Asciidoctor extensions for enhanced documentation capabilities" />
     <MESSAGE value="Add Antora extension to publish raw .adoc files alongside generated HTML pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Antora extension to publish raw .adoc files alongside generated HTML pages" />
+    <MESSAGE value="Add Asciidoctor PlantUML extension to enhance documentation capabilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Asciidoctor PlantUML extension to enhance documentation capabilities" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
