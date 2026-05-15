@@ -35,8 +35,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-    - name: Install Antora with the Antora Lunr Extension
-      run: npm i antora @antora/lunr-extension
+    - name: Install dependencies
+      run: npm ci
+    - name: Install Antora Lunr Extension
+      run: npm i @antora/lunr-extension
     - name: Generate Site
       run: npx antora antora-playbook.yml
     - name: Upload Artifacts

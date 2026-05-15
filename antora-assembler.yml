@@ -1,9 +1,5 @@
+assembler:
+  keep_source: true
 root_level: 0
-component_versions: '*'
-asciidoc:
-  attributes:
-    attribute-name-here: attribute-value-here
-    source-highlighter: highlight.js
 build:
-  command: bundle exec asciidoctor-pdf
-  publish: false
+  keep_source: true
