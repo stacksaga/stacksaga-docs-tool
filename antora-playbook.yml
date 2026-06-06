@@ -8,7 +8,7 @@ site:
 content:
   sources:
     - url: https://github.com/stacksaga/stacksaga-docs.git
-      branches: feture/stacksaga-kafka-update
+      branches: main
       start_path: docs
 #    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
 #      branches: main
