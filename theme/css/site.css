@@ -2770,3 +2770,17 @@ footer.footer {
 .properties-table td:nth-child(1) {
     text-wrap: nowrap;
 }
+
+/* Highlight rows that contain a single cell spanning all 4 columns */
+.properties-table tr:has(td[colspan="4"]),
+.properties-table tr:has(th[colspan="4"]) {
+    background-color: #eef2ff;
+}
+
+.properties-table tr:has(td[colspan="4"]) td,
+.properties-table tr:has(th[colspan="4"]) th {
+    font-weight: 600;
+    color: #00bf00;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
