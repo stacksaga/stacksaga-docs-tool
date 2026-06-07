@@ -49,6 +49,7 @@
 
 :root {
     --color-brand-primary: #28b76b;
+    --color-brand-primary-dark: #0d7a45;
     --color-white: #fff;
     --color-smoke-10: #fefefe;
     --color-smoke-30: #fafafa;
@@ -518,7 +519,9 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .is-current-page > .nav-link, .is-current-page > .nav-text {
-    -webkit-text-stroke-width: .02em
+    -webkit-text-stroke-width: .02em;
+    color: var(--color-brand-primary-dark);
+    font-weight: 400;
 }
 
 .nav-panel-explore {
