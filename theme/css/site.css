@@ -2752,6 +2752,12 @@ footer.footer {
     min-width: 400px;
 }
 
+.properties-table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
 /* Target the second column (td or th) within the table that has the .product-table role */
 .properties-table th:nth-child(4),
 .properties-table td:nth-child(4) {
