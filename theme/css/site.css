@@ -115,7 +115,7 @@
     --page-version-missing-font-color: var(--color-gray-30);
     --caution-color: #802392;
     --caution-on-color: var(--color-white);
-    --important-color: var(--color-brand-primary);
+    --important-color: #bf0000;
     --important-on-color: var(--color-white);
     --note-color: #2d7dd2;
     --note-on-color: var(--color-white);
