@@ -2761,27 +2761,27 @@ footer.footer {
     overflow-x: auto;
 }
 
-/* Target the second column (td or th) within the table that has the .product-table role */
-.properties-table th:nth-child(4),
-.properties-table td:nth-child(4) {
-    /* Apply your desired styles here, e.g., to change the background */
-    background-color: #d3fae2; /* Alice Blue */
+/* Target the last column (td or th) within the .properties-table — works for any column count */
+.properties-table th:last-child,
+.properties-table td:last-child {
+    background-color: #d3fae2;
     border-right: 1px solid #ccc;
-    min-width: 500px; /* or whatever width you need */
+    min-width: 500px;
 }
 
 .properties-table td:nth-child(1) {
     text-wrap: nowrap;
 }
 
-/* Highlight rows that contain a single cell spanning all 4 columns */
-.properties-table tr:has(td[colspan="4"]),
-.properties-table tr:has(th[colspan="4"]) {
+
+/* Highlight rows that contain a cell spanning multiple columns (group headers) */
+.properties-table tr:has(td[colspan]),
+.properties-table tr:has(th[colspan]) {
     background-color: #eef2ff;
 }
 
-.properties-table tr:has(td[colspan="4"]) td,
-.properties-table tr:has(th[colspan="4"]) th {
+.properties-table tr:has(td[colspan]) td,
+.properties-table tr:has(th[colspan]) th {
     font-weight: 600;
     color: #00bf00;
     padding-top: 0.75rem;
