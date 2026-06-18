@@ -261,3 +261,16 @@ function updateCountdown() {
 // document.querySelector('.nav-menu-toggle').click();
 // Update the countdown every second
 const interval = setInterval(updateCountdown, 1000);
+
+// Collapse/expand the left navigation sidebar (desktop) as a toggle
+(function () {
+    var STORAGE_KEY = "nav-collapsed";
+    var toggle = document.querySelector(".toolbar .nav-collapse-toggle");
+    if (!toggle) return;
+    toggle.addEventListener("click", function () {
+        var collapsed = document.documentElement.classList.toggle("is-nav-collapsed");
+        try {
+            window.localStorage.setItem(STORAGE_KEY, collapsed ? "1" : "0");
+        } catch (e) {}
+    });
+})();

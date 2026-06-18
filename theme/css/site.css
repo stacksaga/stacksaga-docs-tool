@@ -182,8 +182,8 @@
     --nav-width: calc(270 / var(--rem-base) * 1rem);
     --toc-top: calc(var(--body-top) + var(--toolbar-height));
     --toc-height: calc(var(--viewport-height) - var(--toc-top) - 2.5rem);
-    --toc-width: calc(162 / var(--rem-base) * 1rem);
-    --toc-width--widescreen: calc(216 / var(--rem-base) * 1rem);
+    --toc-width: calc(200 / var(--rem-base) * 1rem);
+    --toc-width--widescreen: calc(260 / var(--rem-base) * 1rem);
     --doc-max-width: calc(720 / var(--rem-base) * 1rem);
     --doc-max-width--desktop: calc(960 / var(--rem-base) * 1rem);
     --z-index-doc: 1;
@@ -358,7 +358,8 @@ body ::-webkit-scrollbar-thumb {
         position: static;
         visibility: visible;
         height: calc(100vh - 3.5rem);
-        height: var(--nav-height--desktop)
+        height: var(--nav-height--desktop);
+        transition: width .2s ease
     }
 }
 
@@ -739,6 +740,47 @@ body ::-webkit-scrollbar-thumb {
 
 .nav-toggle.is-active {
     background-image: url(../img/octicons-24.svg#view-arrow-left)
+}
+
+.nav-collapse-toggle {
+    display: none
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-collapse-toggle {
+        display: block;
+        background: url(../img/octicons-24.svg#view-arrow-left) no-repeat 50%/50% 50%;
+        filter: invert(10%);
+        filter: var(--toolbar-primary-icon-filter);
+        border: none;
+        outline: none;
+        line-height: inherit;
+        padding: 0;
+        margin-left: -.625rem;
+        margin-right: .25rem;
+        height: 2.5rem;
+        height: var(--toolbar-height);
+        width: 2.5rem;
+        width: var(--toolbar-height);
+        cursor: pointer
+    }
+
+    html.is-nav-collapsed .nav-collapse-toggle {
+        background-image: url(../img/octicons-24.svg#view-file-directory)
+    }
+
+    html.is-nav-collapsed .nav-container {
+        width: 0;
+        overflow: hidden
+    }
+
+    html.is-nav-collapsed .nav {
+        display: none
+    }
+
+    html.is-nav-collapsed .doc {
+        max-width: none
+    }
 }
 
 .home-link {
