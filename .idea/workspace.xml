@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="405b613f-ab94-49a4-be9e-32c8535ab8ef" name="Changes" comment="Add Asciidoctor PlantUML extension to enhance documentation capabilities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/partials/footer-content.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/theme/partials/footer-content.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,11 @@
     </persistenceIdMap>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -91,8 +95,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-505da07d5167-intellij.indexing.shared.core-IU-262.7132.23" />
+        <option value="bundled-js-predefined-d6986cc7102b-6f3a0af6a84c-JavaScript-IU-262.7132.23" />
       </set>
     </attachedChunks>
   </component>
@@ -109,6 +113,13 @@
       <workItem from="1776289433445" duration="1287000" />
       <workItem from="1776315803220" duration="757000" />
       <workItem from="1778339750853" duration="775000" />
+      <workItem from="1778910769719" duration="555000" />
+      <workItem from="1778911609530" duration="579000" />
+      <workItem from="1780857329518" duration="1006000" />
+      <workItem from="1780866057985" duration="231000" />
+      <workItem from="1780866384957" duration="2167000" />
+      <workItem from="1781098134691" duration="4025000" />
+      <workItem from="1781107514026" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="Add Asciidoctor diagram extension to enhance documentation capabilities">
       <option name="closed" value="true" />

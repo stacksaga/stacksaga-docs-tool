@@ -2829,3 +2829,215 @@ footer.footer {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
+
+/* ==========================================================================
+   Image Zoom Lightbox & Pan Viewer
+   ========================================================================== */
+
+/* Zoomable image styling and cursor in documentation articles */
+article.doc img.zoomable-image,
+.doc .imageblock img.zoomable-image {
+    cursor: zoom-in;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article.doc img.zoomable-image:hover,
+.doc .imageblock img.zoomable-image:hover {
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.12);
+}
+
+/* Lock document scrolling when lightbox modal is active */
+html.is-clipped--lightbox,
+body.is-clipped--lightbox {
+    overflow: hidden !important;
+}
+
+/* Lightbox Modal Backdrop Overlay */
+.image-lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100000;
+    background-color: rgba(15, 23, 42, 0.90);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.image-lightbox-overlay.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Lightbox Header Toolbar */
+.image-lightbox-header {
+    height: 54px;
+    min-height: 54px;
+    padding: 0 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(15, 23, 42, 0.65);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 2;
+    user-select: none;
+}
+
+.image-lightbox-title {
+    color: #f8fafc;
+    font-size: 0.92rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 1rem;
+    max-width: 50%;
+}
+
+.image-lightbox-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.image-lightbox-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #f1f5f9;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease;
+    text-decoration: none;
+    padding: 0;
+    outline: none;
+}
+
+.image-lightbox-btn:hover {
+    background: rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.image-lightbox-btn:active {
+    transform: translateY(0);
+}
+
+.image-lightbox-btn.btn-close {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.4);
+    color: #fca5a5;
+    margin-left: 0.35rem;
+}
+
+.image-lightbox-btn.btn-close:hover {
+    background: rgba(239, 68, 68, 0.85);
+    color: #ffffff;
+}
+
+.image-lightbox-zoom-badge {
+    color: #cbd5e1;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--monospace-font-family, monospace);
+    padding: 0.25rem 0.55rem;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    min-width: 52px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s ease, background 0.15s ease;
+}
+
+.image-lightbox-zoom-badge:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+/* Lightbox Viewport & Canvas Stage */
+.image-lightbox-viewport {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    user-select: none;
+}
+
+.image-lightbox-stage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, 0);
+    pointer-events: none;
+}
+
+.image-lightbox-stage.is-dragging {
+    cursor: grabbing !important;
+}
+
+.image-lightbox-viewport:active {
+    cursor: grabbing;
+}
+
+.image-lightbox-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55);
+    border-radius: 8px;
+    background-color: #ffffff;
+    pointer-events: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.image-lightbox-card > img,
+.image-lightbox-card > svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    user-select: none;
+    pointer-events: auto;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* Usage Hint Pill at Bottom Center */
+.image-lightbox-hint {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: #94a3b8;
+    font-size: 0.75rem;
+    padding: 0.4rem 0.95rem;
+    border-radius: 9999px;
+    pointer-events: none;
+    user-select: none;
+    z-index: 10;
+    transition: opacity 0.4s ease;
+}
+
+.image-lightbox-hint.is-hidden {
+    opacity: 0;
+}
+
