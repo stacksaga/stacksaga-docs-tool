@@ -1,13 +1,36 @@
 antora:
   extensions:
     - ./lib/adoc-publisher-extension.js
+    - require: ./lib/sitemap-priority-extension.js
+      include_root: true
+      default_priority: 0.5
+      default_changefreq: monthly
+      rules:
+        - match: /introduction-to-stacksaga.html
+          priority: 1.0
+          changefreq: weekly
+        - match: /**/index.html
+          priority: 0.8
+          changefreq: weekly
+        - match: /**/overview.html
+          priority: 0.8
+          changefreq: weekly
+        - match: /**/architecture.html
+          priority: 0.8
+          changefreq: weekly
+        - match: /foundations/**
+          priority: 0.7
+          changefreq: weekly
+        - match: /static/**
+          priority: 0.3
+          changefreq: yearly
 site:
   title: StackSaga Docs
   start_page: stacksaga::introduction-to-stacksaga.adoc
   url: https://docs.stacksaga.org
 content:
   sources:
-    - url: https://github.com/stacksaga/stacksaga-docs.git
+    - url: C:\Users\mafei\STACKSAGA-PROJECT\stacksaga-docs
       branches: main
       start_path: docs
 #    - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
