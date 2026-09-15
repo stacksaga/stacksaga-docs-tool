@@ -1,0 +1,28 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://docs.stacksaga.org/</loc>
+        <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://docs.stacksaga.org/stacksaga/latest/introduction-to-stacksaga.html</loc>
+        <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://docs.stacksaga.org/stacksaga/latest/foundations/index.html</loc>
+        <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://docs.stacksaga.org/stacksaga/latest/implementations/stacksaga-sync/index.html</loc>
+        <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://docs.stacksaga.org/stacksaga/latest/implementations/stacksaga-kafka-implementation/index.html</loc>
+        <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+    </url>
+
+</urlset>
