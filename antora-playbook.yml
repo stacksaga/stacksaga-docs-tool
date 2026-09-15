@@ -30,12 +30,9 @@ site:
   url: https://docs.stacksaga.org
 content:
   sources:
-    # - url: C:\Users\mafei\STACKSAGA-PROJECT\stacksaga-docs
-      # branches: main
-      # start_path: docs
-   - url: https://github.com/mafei-dev/stacksaga-admin-docs.git
-     branches: main
-     start_path: docs
+    - url: https://github.com/stacksaga/stacksaga-docs.git
+      branches: main
+      start_path: docs
 ui:
   bundle:
     url: ./theme
